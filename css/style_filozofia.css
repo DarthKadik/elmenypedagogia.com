@@ -1,0 +1,82 @@
+body{
+  background: #413c58;
+}
+
+.container {
+  margin-top: 100px;
+  margin-left: 40px;
+  margin-right: -100%;
+  position: relative;
+  text-align: center;
+  height: auto;
+  display: inline;
+  background: red;
+  bottom: 0;
+    right: 0;
+}
+
+.navImage {
+  max-width: 76px;
+  float: left;
+  margin-left: 50px;
+  bottom: 0;
+    right: 0;
+}
+
+#main {
+  margin-left: 0px;
+}
+#navDiv {
+  position: fixed;
+  margin: 20px;
+  z-index: 2;
+  background: white;
+  width: 350px;
+  padding: 10px;
+  border-radius: 5px;
+  bottom: 0;
+    right: 0;
+}
+
+#magunkrolLink {
+  position: absolute;
+  margin-top: 45px;
+  margin-left: -80px;
+
+    background: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    color: black;
+    transform: translate(-50%, -50%);
+}
+
+#mainPage {
+  position: absolute;
+  margin-top: 45px;
+  margin-left: -330px;
+
+    background: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    color: black;
+    transform: translate(-50%, -50%);
+}
+
+#filozofiaLink {
+  position: absolute;
+  margin-top: 45px;
+  margin-left: -202px;
+
+    background: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    color: black;
+    transform: translate(-50%, -50%);
+}
+
+/* FILOZÓFIA */
+body{
+  color: white;
+}
+section {
+  padding: 1%;
+  background: #5577e8;
+  font-size: 20px;
+}
