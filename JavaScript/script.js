@@ -30,20 +30,16 @@ function showSlides(n) {
 /* Show More Button */
 
 function showMore() {
-    var x = document.getElementById("show");
-    if (x.style.display == "none") {
-        x.style.display = "block";
+    var mutatando = document.getElementById("show");
+    if (mutatando.style.display == "none") {
+        mutatando.style.display = "block";
         document.getElementById("less").innerHTML = "Kevesebb";
     } else {
-        x.style.display = "none";
+        mutatando.style.display = "none";
         document.getElementById("less").innerHTML = "Több";
     }
 }
 
-// On click function
-function clicked () {
-    alert("Ez egy teszt üzenet, úgy ám, bizony");
-}
 // function resizeNav(){
   //var r = document.getElementById("reBody");
   // document.getElementById("mainPage").style.margin = window.outerWidth / 40 * -1 ;
