@@ -1,0 +1,673 @@
+* {box-sizing:border-box}
+
+/* Global properties */
+body{
+  color: white;
+  background-image: url("../images/wood.jpg");
+  background-repeat: repeat;
+  font-size: 21px;
+  margin: 0;
+  font-family: 'Cardo', serif;
+}
+
+h1 {
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+
+button {
+    background: none;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 120%;
+    color: lightgreen;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+ section {
+   padding: 1%;
+   background: #351431;/* #7a4344; */
+   color: #fff;
+   font-size: 22px;
+ }
+
+ hr {
+   margin-top: 100px;
+ }
+
+ li {
+   margin-left: 60px;
+   margin-bottom: 10px;
+   margin-right: 30px;
+   text-align: justify;
+ }
+
+.wrapper {
+  z-index: -1;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.h1_fullImage {
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 60px;
+  margin: -10px auto 0 auto;
+  padding-bottom: 3px;
+  background: #cfd11a;
+}
+
+#bodyWrapperWW {
+  max-width: 1000px;
+  margin: auto;
+}
+
+#bodyWrapper {
+  background: #230d20;
+  padding: 15px 0 15px 0;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.marginDiv {
+  height: 25px;
+}
+
+@media only screen and (min-width: 999px) {
+
+  .navSmall {
+    display: none;
+  }
+
+  .navBig {
+    display: block;
+  }
+
+  #headerImage {
+    display: block;
+    max-width: 1000px;
+    margin-top: 0;
+    position: relative;
+  }
+
+.titleGH {
+  max-width: 434px;
+  margin: 45px 0px 0px 70px;
+  background: rgba(122, 0, 25, 0);
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 2;
+  position: absolute;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 80px;
+}
+
+.container {
+  margin-top: 100px;
+  margin-left: 40px;
+  position: relative;
+  text-align: center;
+  height: auto;
+  display: inline;
+}
+
+.navImage {
+  display: inline-block;
+  width: 76px;
+  float: left;
+  margin-left: 50px;
+}
+
+#blueUpTo{
+    margin-top: -29px;
+}
+
+
+.bottom {
+  width: 76px;
+  float: left;
+  margin-top: 23px;
+}
+
+.first {
+  margin-left: 0;
+}
+
+#main {
+  margin-left: 0px;
+}
+
+.navDiv {
+  position: fixed;
+  margin: 20px;
+  z-index: 2;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  bottom: 0;
+  top: auto;
+}
+
+.navLeft {
+  left: 0;
+  width: 375px;
+  height: 190px;
+}
+
+.navRight {
+  right: 0;
+  width: 250px;
+  height: 95px;
+}
+
+.navLink {
+position: absolute;
+margin-top: 45px;
+background: rgba(255, 255, 255, 0.7);
+text-decoration: none;
+color: black;
+transform: translate(-50%, -50%);
+padding: 0;
+font-weight: 400;
+font-size: 22px;
+}
+
+
+#magunkrolLink {
+  margin-left: 42px;
+}
+
+#mainPage {
+  margin-left: -202px;
+}
+
+#filozofiaLink {
+  margin-left: -78px;
+}
+
+#tanyaLink {
+  margin-left: -205px;
+  margin-top: 140px;
+}
+
+#programLink {
+  margin-left: -78px;
+  margin-top: 140px;
+}
+
+#szolgLink {
+  margin-left: 45px;
+  margin-top: 140px;
+}
+
+#kapcsLink {
+  margin-left: -135px
+}
+
+#szakLink {
+  margin-left: -15px;
+}
+}
+/* Slideshow container
+.titleGH {
+  width: 434px;
+  margin: 45px 0px 0px 70px;
+  background: rgba(122, 0, 25, 0);
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 2;
+  position: absolute;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 80px;
+}*/
+
+.slideshow-container {
+  z-index: 0;
+  max-width: 100%;
+position: relative;
+  margin: auto;
+}
+
+.topMarginNull {
+  margin-top: -15px;
+}
+
+.hide {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dotDiv {
+  margin-top: -55px;
+  text-align: center;
+}
+
+
+.two {
+  margin-left:30px;
+}
+
+.three {
+  margin-left: 30px;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/*#FmainPage {
+  margin-left: -290px;
+}
+
+#FfilozofiaLink {
+  margin-left: -162px;
+}
+
+#FtanyaLink {
+  margin-left: -292px;
+  margin-top: 135px;
+}
+
+#FprogramLink {
+  margin-left: -160px;
+  margin-top: 135px;
+}
+
+#FszolgLink {
+  margin-left: -37px;
+  margin-top: 135px;
+}
+*/
+/* Bemutató */
+
+#bemutato {
+  text-align: center;
+  color: white;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 5%;
+}
+
+/* Magunkrol */
+.portfolio {
+  color: white;
+  max-width: 900px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 10%;
+}
+
+.intro {
+  max-width: 900px;
+  text-align: justify;
+}
+
+
+#contPort {
+  width: 100%;
+}
+
+#show {
+  display: none;
+  text-align: justify;
+}
+
+#vb {
+  margin-bottom: 10%;
+}
+
+/* FILOZÓFIA */
+.sectionFil {
+  text-align: center;
+  margin: 10px auto;
+  z-index: -1;
+}
+
+
+
+p {
+  text-align: justify;
+  width: 95%;
+  margin: 15px auto;
+}
+
+.floatImgP {
+  height: 340px;
+  display: inline-block;
+}
+
+.right {
+  float: right;
+  margin: 0 50px 0 40px;
+}
+
+.left {
+  float: left;
+  margin: 0 40px 0 50px;
+}
+
+.outLi {
+    font-size: 26px;
+    margin-bottom: 100px;
+}
+
+.inLi {
+    margin-left: -40px;
+    list-style-type: none;
+    font-size: 21px;
+    margin-top: 15px;
+}
+
+.inlineImg {
+  width: 100%
+}
+
+.roomName {
+  font-size: 40px;
+  text-align: center;
+  font-style: italic;
+}
+
+.intextLink {
+  text-decoration: none;
+  color: lightgreen;
+  padding: 20px;
+  padding-left: 10px;
+}
+
+.intextLink:hover {
+  color: red;
+  text-decoration: underline;
+}
+/* Animation */
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media screen and (min--moz-device-pixel-ratio:0) {
+
+  #magunkrolLink {
+    margin-left: -80px
+  }
+
+  #mainPage {
+    margin-left: -330px
+  }
+
+  #filozofiaLink {
+    margin-left: -202px;
+  }
+
+  #tanyaLink {
+    margin-left: -332px;
+    margin-top: 135px;
+  }
+
+  #programLink {
+    margin-left: -200px;
+    margin-top: 135px;
+  }
+
+  #szolgLink {
+    margin-left: -77px;
+    margin-top: 135px;
+  }
+
+  .bottom {
+    margin-top: 20px;
+  }
+
+  #blueUpTo {
+    margin-top: 0;
+  }
+
+  #kapcsLink {
+    margin-left: -200px;
+  }
+
+  #szakLink {
+    margin-left: -80px;
+  }
+
+}
+
+
+@media only screen and (max-width: 1800px) and (min-width: 1001px){
+  #bodyWrapper, body:last-child{
+    margin-bottom: 220px;
+  }
+}
+
+  @media only screen and (max-width: 1000px) {
+
+    .navBig {
+      display: none;
+    }
+
+    .navSmall {
+       z-index: 1;
+      display: block;
+    }
+  /* Navigation */
+  .titleGH {
+    width: 100%;
+    padding: 60px 0 40px;
+    font-size: 80px;
+    margin-bottom: -20px;
+    text-align: center;
+    background: #CC6322;
+    margin: 0;
+  }
+
+
+
+  #headerImage {
+    display: none;
+  }
+
+
+  nav {
+    display: block;
+    background: #63A375;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    padding-right: 10px;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 14px 20px 14px 2px;
+    border-top: 1px dashed rgba(255,255,255,.2);
+  }
+
+  nav label {
+      z-index: 2;
+      padding: 11px 0 0 25px;
+      display: block;
+      background: url(../images/menu.svg) no-repeat 0 14px;
+      background-size: 20px;
+  }
+
+  nav label div {
+    background: #63A375;
+    display: none;
+    margin-top: 10px;
+    margin-right: 0;
+
+  }
+
+  nav label input:checked ~ div{
+    z-index: 2;
+    display: block;
+  }
+
+  nav label input:checked, nav{
+    padding-right: 0;
+  }
+
+  input {
+    display: none;
+  }
+
+  .h1_fullImage {
+    display: none;
+}
+
+@media only screen and (max-width: 892px){
+  .titleGH {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .slideshow-container {
+    display: none;
+  }
+
+  .dotDiv {
+    display: none;
+  }
+
+  .floatImgP {
+    display: block;
+    text-align: center;
+  }
+  .right {
+    float: none;
+    margin: auto;
+  }
+
+  .left {
+    float: none;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 610px){
+  .titleGH {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-height: 530px){
+  nav a {
+    padding: 5px 20px 5px 2px;
+  }
+}
+
+@media only screen and (max-width: 530px){
+.floatImgP {
+  max-width: 100%;
+  height: auto;
+  }
+}
+@media only screen and (max-height: 385px){
+  body {
+    font-size: 18px;
+  }
+  nav a {
+    font-size: 15px;
+    padding: 3px 20px 3px 2px;
+  }
+}
+
+@media only screen and (max-width: 420px){
+  .titleGH {
+    font-size: 28px;
+  }
+  body {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 300px){
+  .floatImgP {
+    display: none;
+  }
+
+  .titleGH {
+    display: none;
+  }
+}
