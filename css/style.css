@@ -500,8 +500,22 @@ p {
     margin-top: 0;
   }
 
+  #kapcsLink {
+    margin-left: -200px;
+  }
+
+  #szakLink {
+    margin-left: -80px;
+  }
+
 }
 
+
+@media only screen and (max-width: 1800px) and (min-width: 1001px){
+  #bodyWrapper, body:last-child{
+    margin-bottom: 220px;
+  }
+}
 
   @media only screen and (max-width: 1000px) {
 
