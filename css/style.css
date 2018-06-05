@@ -76,7 +76,7 @@ button {
   height: 25px;
 }
 
-@media only screen and (min-width: 999px) {
+@media only screen and (min-width: 1001px) {
 
   .navSmall {
     display: none;
@@ -116,10 +116,14 @@ button {
 }
 
 .navImage {
+  position: absolute;
   display: inline-block;
   width: 76px;
+  height: 76px;
   float: left;
   margin-left: 50px;
+  background-size: 76px 76px;
+  margin-left: 0px;
 }
 
 #blueUpTo{
@@ -128,17 +132,11 @@ button {
 
 
 .bottom {
-  width: 76px;
-  float: left;
-  margin-top: 23px;
+  margin-top: 90px;
 }
 
 .first {
   margin-left: 0;
-}
-
-#main {
-  margin-left: 0px;
 }
 
 .navDiv {
@@ -178,38 +176,43 @@ font-size: 22px;
 
 
 #magunkrolLink {
-  margin-left: 42px;
+  margin-left: 210px;
+  background-image: url(../images/handBlue.png);
 }
 
-#mainPage {
-  margin-left: -202px;
+#main{
+margin-left: -30px;
+background-image: url(../images/handLightGreen.png);
 }
 
 #filozofiaLink {
-  margin-left: -78px;
+  margin-left: 90px;
+  background-image: url(../images/handRed.png);
 }
 
 #tanyaLink {
-  margin-left: -205px;
-  margin-top: 140px;
+  margin-left: -30px;
+  background-image: url(../images/handYellow.png);
 }
 
 #programLink {
-  margin-left: -78px;
-  margin-top: 140px;
+  margin-left: 90px;
+  background-image: url(../images/handPurple.png);
 }
 
 #szolgLink {
-  margin-left: 45px;
-  margin-top: 140px;
+  margin-left: 210px;
+  background-image: url(../images/handOrange.png);
 }
 
 #kapcsLink {
-  margin-left: -135px
+  margin-left: -115px;
+  background-image: url(../images/handLightGreen.png);
 }
 
 #szakLink {
-  margin-left: -15px;
+  margin-left: 5px;
+  background-image: url(../images/handBlue.png);
 }
 }
 /* Slideshow container
@@ -463,56 +466,8 @@ p {
   to {opacity: 1}
 }
 
-@media screen and (min--moz-device-pixel-ratio:0) {
-
-  #magunkrolLink {
-    margin-left: -80px
-  }
-
-  #mainPage {
-    margin-left: -330px
-  }
-
-  #filozofiaLink {
-    margin-left: -202px;
-  }
-
-  #tanyaLink {
-    margin-left: -332px;
-    margin-top: 135px;
-  }
-
-  #programLink {
-    margin-left: -200px;
-    margin-top: 135px;
-  }
-
-  #szolgLink {
-    margin-left: -77px;
-    margin-top: 135px;
-  }
-
-  .bottom {
-    margin-top: 20px;
-  }
-
-  #blueUpTo {
-    margin-top: 0;
-  }
-
-  #kapcsLink {
-    margin-left: -200px;
-  }
-
-  #szakLink {
-    margin-left: -80px;
-  }
-
-}
-
-
 @media only screen and (max-width: 1800px) and (min-width: 1001px){
-  #bodyWrapper, body:last-child{
+  body:last-child{
     margin-bottom: 220px;
   }
 }
@@ -669,5 +624,21 @@ p {
 
   .titleGH {
     display: none;
+  }
+}
+
+@supports (-ms-ime-align:auto) {
+  #tanyaHand {
+    display: none;
+  }
+
+  #programHand {
+    margin-left: -200px;
+    margin-top: 135px;
+  }
+
+  #szolgHand {
+    margin-left: -77px;
+    margin-top: 135px;
   }
 }
