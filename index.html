@@ -6,106 +6,71 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Élménypedagógia.com || Főoldal</title>
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
 
    <script src="JavaScript/script.js"></script>
-
-   <!-- Navigation menu mobile-->
-  <nav class="navSmall">
-      <label>MENÜ
-        <input type="checkbox">
-        <div>
-          <a class="navLink" href="index.html">Főoldal</a>
-          <a class="navLink" href="filozofiank.html">Filozófiánk</a>
-          <a class="navLink" href="magunkrol.html">Magunkról</a>
-          <a href="tanya.html">Tanya</a>
-          <a href="programok.html">Programok</a>
-          <a href="szolgaltatas.html">Szolgáltatások</a>
-          <a href="szak.html">Szakirodalom</a>
-          <a href="kapcsolat.html">Kapcsolat</a>
-        </div>
-      </label>
-    </nav>
-
-   <!-- Navigation menu normal-->
-  <nav class="navBig">
-    <div class="navDiv navLeft">
-        <div class="container">
-        <img id="main" class="navImage" src="images/handLightGreen.png">
-         <a class="navLink" id="mainPage" href="index.html">Főoldal</a>
-        <img class="navImage" src="images/handRed.png">
-        <a class="navLink" id="filozofiaLink" href="filozofiank.html">Filozófiánk</a>
-        <img id="blueUpTo" class="navImage"  src="images/handBlue.png">
-         <a class="navLink" id="magunkrolLink" href="magunkrol.html">Magunkról</a>
-        <img class="navImage bottom first" src="images/handYellow.png">
-          <a class="navLink" id="tanyaLink" href="tanya.html">Tanya</a>
-        <img class="navImage bottom" src="images/handPurple.png">
-          <a class="navLink" id="programLink" href="programok.html">Programok</a>
-        <img class="navImage bottom" src="images/handOrange.png">
-          <a class="navLink" id="szolgLink" href="szolgaltatas.html">Szolgáltatások</a>
-        <div class="navDiv navRight">
-           <div class="container">
-             <img id="main" class="navImage navImgLeft" src="images/handLightGreen.png">
-                <a class="navLink" id="szakLink" href="szak.html">Szakirodalom</a>
-             <img id="blueUpTo" class="navImage navImgLeft" src="images/handBlue.png">
-                <a class="navLink" id="kapcsLink" href="kapcsolat.html">Kapcsolat</a>
-           </div>
-        </div>
-    </div>
-  </nav>
 </head>
 
-<body>
-
- <h1 class="h1_fullImage">Élménypedagógia.com</h1>
+<body style="background: none;">
 
 
-  <!-- Slideshow container -->
- <div class="slideshow-container">
 
-   <!-- Images-->
-     <div class="mySlides fade">
-     <div class="numbertext">1 / 3</div>
-     <img src="images/indexHeader2.jpg" style="width:100%">
-   </div>
 
-   <div class="mySlides fade hide">
-     <div class="numbertext">2 / 3</div>
-     <img src="images/indexHeader3.jpg" style="width:100%">
-   </div>
+ <div style="text-align: center;">
 
-   <div class="mySlides fade hide">
-     <div class="numbertext">3 / 3</div>
-     <img src="images/indexHeader2.jpg" style="width:100%">
-   </div>
+   <img src="images/wordtree.jpg" usemap="#planetmap" style="margin-top: 40px;">
 
-   <!-- Next and previous buttons -->
-   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-   <a class="next" onclick="plusSlides(1)">&#10095;</a>
+   <map name="planetmap">
+     <area shape="rect" coords="320,5,380,200" href="programok.html" title="Terápia">
+     <area shape="poly" coords="418,102,492,98,492,153,432,240,429,320,370,330," href="szolgaltatas.html" title="Tanulás">
+     <area shape="poly" coords="446,219,446,272,728,147,696,99" href="tanya.html" title="Green Care">
+     <area shape="poly" coords="430,299,514,252,662,252,662,298,525,297,447,334" href="tapasztalat.html" title="Szórakozás">
+     <area shape="poly" coords="407,387,551,316,625,327,625,392,558,370,430,430" href="szolgaltatas.html" title="Élmény">
+     <area shape="rect" coords="440,430,700,475" href="programok.html" title="Lovas túra">
+     <area shape="rect" coords="400,450,440,747" href="filozofiank.html" title="Egyénreszabott pedagógia">
+     <area shape="rect" coords="339,422,399,741" href="montessori.html" title="Montessori">
+     <area shape="rect" coords="170,431,327,500" href="magunkrol.html" title="Család">
+     <area shape="poly" coords="30,382,214,354,284,364,363,384,356,416,242,392,28,444" href="tanya.html" title="Izlandi lovak">
+     <area shape="poly" coords="146,242,383,349,366,380,123,323" href="programok.html" title="Tábor">
+     <area shape="poly" coords="89,127,171,175,255,207,363,291,358,313,236,235,54,203" href="szolgaltatas.html" title="Nálatok, állatok">
+     <area shape="poly" coords="174,45,344,226,336,265,125,86" href="tanya.html" title="Táborfalva">
+   </map>
+</div>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+ <!-- Images-->
+   <div class="mySlides fade">
+   <div class="numbertext">1 / 3</div>
+   <img src="images/indexHeader2.jpg" style="width:100%">
  </div>
- <br>
 
- <!-- The dots/circles -->
+ <div class="mySlides fade hide">
+   <div class="numbertext">2 / 3</div>
+   <img src="images/indexHeader3.jpg" style="width:100%">
+ </div>
 
- <div class="dotDiv" style="text-align:center">
+ <div class="mySlides fade hide">
+   <div class="numbertext">3 / 3</div>
+   <img src="images/indexHeader2.jpg" style="width:100%">
+ </div>
+
+ <!-- Next and previous buttons -->
+ <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+ <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+
+<div class="dotDiv" style="text-align:center">
    <span class="dot" onclick="currentSlide(1)" style="margin-left: -30px;"></span>
    <span class="dot" onclick="currentSlide(2)" style="margin-left: 0"></span>
-   <span class="dot" onclick="currentSlide(3)"style="margin-left: 30px"></span>
- </div>
-
-
-<div class="bodyWrapper">
-
-<!-- Introduction -->
-
-<section id="bemutato">
-  <h1> Care Farm 60km-re Budapesttől</h2>
-    <p>A fővárostól alig ötven percnyire lévő Örkény-környéki tanyavilág égköve a 150 éves, jó állapotú ház és a hozzá tartozó tanya. A szemet gyönyörködtető pusztai hangulatot
-      állatainkkal próbáljuk meg még kellemesebbé tenni, hogy a városi élet nyüzsgéséből kiszakadni vágyó ember nyugodtan pihenhessen és csodálhassa az Alföldi táj szépségét. </p>
-</section>
+   <span class="dot" onclick="currentSlide(3)" style="margin-left: 30px"></span>
 </div>
 </body>
 </html>
