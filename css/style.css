@@ -382,7 +382,7 @@ position: relative;
   width: 100%;
 }
 
-#show {
+#show1, #show2{
   display: none;
   text-align: justify;
 }
@@ -557,7 +557,12 @@ p {
 }
 
 @media only screen and (max-width: 800px){
-  .slideshow-container {
+/*  .slideshow-container {
+    display: none;
+  }
+*/
+
+  #wordCloud {
     display: none;
   }
 
@@ -614,6 +619,10 @@ p {
   }
   body {
     font-size: 16px;
+  }
+
+  label {
+    font-size: 21px;
   }
 }
 
