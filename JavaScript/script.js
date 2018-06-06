@@ -29,17 +29,21 @@ function showSlides(n) {
 
 /* Show More Button */
 
-function showMore() {
-    var mutatando = document.getElementById("show");
-    if (mutatando.style.display == "none") {
-        mutatando.style.display = "block";
-        document.getElementById("less").innerHTML = "Kevesebb";
+function showMore(id,buttonId) {
+    var x = document.getElementById(id);
+    if (x.style.display == "none") {
+        x.style.display = "block";
+        document.getElementById(buttonId).innerHTML = "Kevesebb";
     } else {
-        mutatando.style.display = "none";
-        document.getElementById("less").innerHTML = "Több";
+        x.style.display = "none";
+        document.getElementById(buttonId).innerHTML = "Több";
     }
 }
 
+// On click function
+function clicked () {
+    alert("Ez egy teszt üzenet, úgy ám, bizony");
+}
 // function resizeNav(){
   //var r = document.getElementById("reBody");
   // document.getElementById("mainPage").style.margin = window.outerWidth / 40 * -1 ;
