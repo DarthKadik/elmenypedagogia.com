@@ -12,16 +12,31 @@
   <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
 
    <script src="JavaScript/script.js"></script>
+
+   <!-- Navigation menu mobile-->
+   <nav class="navSmall">
+       <label>MENÜ
+         <input type="checkbox">
+         <div>
+           <a class="navLink" href="index.html">Főoldal</a>
+           <a class="navLink" href="filozofiank.html">Filozófiánk</a>
+           <a class="navLink" href="magunkrol.html">Magunkról</a>
+           <a href="tanya.html">Tanya</a>
+           <a href="programok.html">Programok</a>
+           <a href="szolgaltatas.html">Szolgáltatások</a>
+           <a href="szak.html">Szakirodalom</a>
+           <a href="kapcsolat.html">Kapcsolat</a>
+         </div>
+       </label>
+     </nav>
+
 </head>
 
 <body style="background: none;">
 
-
-
-
  <div style="text-align: center;">
 
-   <img src="images/wordtree.jpg" usemap="#planetmap" style="margin-top: 40px;">
+   <img id="wordCloud" src="images/wordtree.jpg" usemap="#planetmap" style="margin-top: 40px;">
 
    <map name="planetmap">
      <area shape="rect" coords="320,5,380,200" href="programok.html" title="Terápia">
@@ -39,7 +54,6 @@
      <area shape="poly" coords="174,45,344,226,336,265,125,86" href="tanya.html" title="Táborfalva">
    </map>
 </div>
-
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -56,7 +70,7 @@
 
  <div class="mySlides fade hide">
    <div class="numbertext">3 / 3</div>
-   <img src="images/indexHeader2.jpg" style="width:100%">
+   <img src="images/tanya/pipacs.jpg" style="width:100%">
  </div>
 
  <!-- Next and previous buttons -->
@@ -72,5 +86,11 @@
    <span class="dot" onclick="currentSlide(2)" style="margin-left: 0"></span>
    <span class="dot" onclick="currentSlide(3)" style="margin-left: 30px"></span>
 </div>
+
+<b style="color: red;">
+  A főoldal kisképernyős kialakítása jelenleg újragondolás alatt áll!
+  Szíves elnézésüket köszönjük!
+</b>
+
 </body>
 </html>
