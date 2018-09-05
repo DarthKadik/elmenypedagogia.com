@@ -31,7 +31,7 @@ function showSlides(n) {
 
 function showMore(id,buttonId) {
     var x = document.getElementById(id);
-    if (x.style.display == "none") {
+    if (x.style.display != "block") {
         x.style.display = "block";
         document.getElementById(buttonId).innerHTML = "Kevesebb";
     } else {
@@ -40,10 +40,14 @@ function showMore(id,buttonId) {
     }
 }
 
-// On click function
-function clicked () {
-    alert("Ez egy teszt üzenet, úgy ám, bizony");
+function resize() {
+  $(document).ready(function(){
+    if($(window).width() <= 800) {
+  window.location.href = "tanya.html";
+  }
+  });
 }
+
 // function resizeNav(){
   //var r = document.getElementById("reBody");
   // document.getElementById("mainPage").style.margin = window.outerWidth / 40 * -1 ;
