@@ -3,7 +3,7 @@
 /* Global properties */
 body{
   color: white;
-  background-image: url("../images/wood.jpg");
+  background-image: url("../images/background.jpg");
   background-repeat: repeat;
   font-size: 21px;
   margin: 0;
@@ -27,12 +27,42 @@ button {
     font-size: 25px;
 }
 
+
  section {
+   border-radius: 20px;
+   position: relative;
    padding: 1%;
-   background: #351431;/* #7a4344; */
+   background-color: #000;
    color: #fff;
+   margin-top: 100px;
    font-size: 22px;
  }
+
+ section::after {
+  content: "";
+  background: url(../images/woodidea.jpg);
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.filDiv {
+  background: #230d20;
+  border-radius: 25px;
+  padding-top: 20px;
+  font-size: 22px;
+}
+
+/* section::before {
+  content:url(../images/woodidea.png);
+  top: -63px;
+  left: 373px;
+  position: absolute;
+} */
 
  hr {
    margin-top: 100px;
@@ -46,7 +76,6 @@ button {
  }
 
 .wrapper {
-  z-index: -1;
   max-width: 1000px;
   margin: auto;
 }
@@ -87,6 +116,7 @@ button {
   }
 
   #headerImage {
+    border-radius: 15px;
     display: block;
     max-width: 1000px;
     margin-top: 0;
@@ -561,6 +591,10 @@ p {
     display: none;
   }
 */
+
+.slideshow-container {
+  display: none;
+}
 
   #wordCloud {
     display: none;
