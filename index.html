@@ -4,14 +4,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Élménypedagógia.com || Főoldal</title>
+  <title>Élményfarm - Izlandi lovakkal</title>
+  <meta name="description" content="Élményfarm Budapest közelében izlandi lovakkal">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
 
   <link rel="stylesheet" href="css/style.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
 
-   <script src="JavaScript/script.js"></script>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  if($(window).width() <= 800) {
+window.location.href = "tanya.html";
+}
+});
+</script>
+
+  <script src="JavaScript/script.js"></script>
+
 
    <!-- Navigation menu mobile-->
    <nav class="navSmall">
@@ -32,7 +45,7 @@
 
 </head>
 
-<body style="background: none;">
+<body style="background: none;" onresize="resize()">
 
  <div style="text-align: center;">
 
